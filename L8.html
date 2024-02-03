@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+   
+</head>
+
+<body>
+    <h2>This is HTML form tutorial</h2>
+    
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="role">Role</label>
+        <div>
+            <input type="text" name="myRole" id="role">
+        </div>
+        <br>
+        <label for="email">Email</label>
+        <div>
+            <input type="email" name="myEmail" id="email">
+        </div>
+        <br>
+        <label for="date">Date</label>
+        <br>
+        <div>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <!--Number function used-->
+        <label for="bonus">Bonus</label>
+        <div>
+            <input type="number" name="myBonus" id="bonus">
+        </div>
+        <br>
+        <!--Checkbox used-->
+        <label for="are you eligible?">Are you Eligible?</label>
+        <div>
+            <input type="checkbox" name="myEligibility" id="are you eligible?">
+        </div>
+        <br>
+        <!--Gender function through Radio function-->
+        <label for="gender:">Gender:</label>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="myGender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="myGender" id="female">
+            <label for="others"> Others</label>
+            <input type="radio" name="myGender" id="others">
+        </div>
+        <br>
+        <!--Textarea function used-->
+        <label for="write about yourself">Write about yourself <strong>*</strong></label>
+        <div>
+            <br> <textarea name="myText" id="write about yourself" cols="30" rows="10"></textarea>
+        </div>
+       
+        <br>
+        <!--Select and Options function-->
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="choose yourself" selected></option>
+                <option value="ind">Indica</option>
+                <option value="swf">Swift</option>
+            </select>
+                
+        </div>
+        <br>
+        <!--file upload function-->
+        <div>
+            <label for="file">Upload File</label>
+            <input type="file" id="file">     
+        </div>
+        <br>
+        <!--Submit and reset function-->
+        <div>
+
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>

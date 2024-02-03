@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sudo Selectors</title>
+    <style>
+        h1{
+            background-color: red;
+            color: black;
+            font-size: bold;
+            text-align: center;
+        }
+        /* IF P IS CONTAINED BY ANY LI WHICH CONTAINED BY DIV */
+        /* div p{
+            color: aqua;
+            font-size: bold;
+            background-color: antiquewhite;
+        } */
+
+        /* IF P IS RIGHT INSIDE DIV THE CSS WILL BE APPLIED */
+        /* div > p{
+            color: aqua;
+            font-size: bold;
+            background-color: antiquewhite;
+        } */
+
+        /* IF P IS RIGHT AFTER DIV THAT IS P IS NEXT SIBLING OF DIV */
+        /* div + p{
+            color: rgb(255, 255, 255);
+            
+            background-color: rgb(206, 50, 15);
+        } */
+    </style>
+</head>
+<body>
+    <h1>This is more on Selectors</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item"><p>This is paragraph in li</p></li>
+                <li>this will not get affected</li>
+                <p>This is a para inside ul</p>
+            </ul>
+            <p>This is a paragraph</p>
+        </div>
+        <p>This is another paragraph</p>
+     
+    </div>
+    <p>This is outer paragraph</p>
+</body>
+</html>

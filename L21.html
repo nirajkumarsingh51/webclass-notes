@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body {
+            font-style: italic;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid purple;
+            margin: auto;
+            background-color: #0ac5362a;
+        }
+
+        .item {
+            border: 3px solid gold;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(111, 186, 193);
+        }
+
+        #fruits {
+            float: right;
+            width: 48%;
+
+        }
+
+        #computer {
+            float: left;
+            width: 48%;
+
+        }
+
+        #stationory {
+            /*  float: left; */
+            clear: both;
+            width: 98%;
+        }
+
+        p,
+        h3 {
+            /*  text-align: right;
+            text-align: left;
+            text-align: center; */
+            text-align: justify;
+        }
+
+        h1 {
+            background-color: rgba(225, 151, 237, 0.329);
+            margin: 23px auto;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcom to my store</h1>
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores temporibus in esse neque beatae ullam,
+                quia provident eveniet quaerat quisquam incidunt, tenetur reprehenderit aspernatur iste, consectetur
+                unde voluptatum dicta? Quidem!
+
+
+            </p>
+        </div>
+
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">
+                
+                Initially, blockchain is only used as a foundation of cryptocurrency, but today, we can see the rise of this new emerging technology are being implemented in many industries. In the future, most technologies around the world are expected to use blockchain as an efficient way to make online transactions. One of the areas that blockchain technologies can be applied crowdfunding platforms. The most common problem with the current crowdfunding scene around the world is that the campaigns are not regulated and some of the crowd-funding campaigns turned out to be fraud. Besides, the completion of some projects was also significantly delayed. This project aims to solve these problems by applying Ethereum smart contracts to the crowdfunding site to that the contracts will be fully automatically executed, thus preventing frauds and ensuring that the projects can be delivered within duration given.
+            </p>
+        </div>
+
+        <div id="stationory" class="item">
+            <h3>Stationory</h3>
+            <p id="stationorypara" class="para">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores temporibus in esse neque beatae ullam,
+                quia provident eveniet quaerat quisquam incidunt, tenetur reprehenderit aspernatur iste, consectetur
+                unde voluptatum dicta? Quidem!
+            </p>
+        </div>
+
+        <div id="stationory" class="item">
+            <h3>Stationory</h3>
+            <p id="stationorypara" class="para">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores temporibus in esse neque beatae ullam,
+                quia provident eveniet quaerat quisquam incidunt, tenetur reprehenderit aspernatur iste, consectetur
+                unde voluptatum dicta? Quidem!
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
